@@ -1,0 +1,40 @@
+body {
+    font-family:cursive;
+    background-color:#bbb9f0;
+    color:#f4f4f4;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color:#080808;
+    padding:1em 0;
+}
+
+header nav ul {
+    list-style:georgian outside url('/non-existent.svg');
+    margin:5;
+    padding:0;
+    display:flex;
+    justify-content:center;
+}
+
+header nav ul li {
+    margin:0 1em;
+}
+
+header nav ul li a {
+    text-decoration:none;
+    color:#f8f8f6;
+    font-weight:bold;
+}
+
+main {
+    padding:2em;
+    max-width:1000px;
+    margin:auto;
+    background-color:#2385e7;
+    border-radius:10px;
+}
+
+
